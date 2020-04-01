@@ -36,8 +36,6 @@ public class ReactorModuleTest {
     @Test
     @DisplayName("Refactor Flux Test")
     public void fluxTest() {
-
-
         Flux<String> seq1 = Flux.just("hello", "world", ":)");
 
         List<String> iterable = Arrays.asList("foo", "bar", "foobar");
@@ -59,6 +57,5 @@ public class ReactorModuleTest {
         ints2.subscribe(i -> System.out.println(i),
                 error -> System.err.println("Error " + error),
                 () -> System.out.println("Done")); //	Deal with values and errors but also run some code when the sequence successfully completes.
-
     }
 }
