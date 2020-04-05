@@ -8,11 +8,11 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>shb.license</groupId>
-	<artifactId>shinhan-bank-license</artifactId>
+	<groupId>shb.ms</groupId>
+	<artifactId>shinhan-bank-cloud-ms-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>shinhan-bank-license</name>
-	<description>shinhan bank license for Spring boot</description>
+	<name>shinhan-bank-cloud-ms-test</name>
+	<description>shinhan bank microservice architecture test</description>
 
 	<properties>
 		<java.version>9</java.version>
@@ -46,6 +46,11 @@
 			<artifactId>lombok</artifactId>
 			<version>1.18.2</version>
 			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 

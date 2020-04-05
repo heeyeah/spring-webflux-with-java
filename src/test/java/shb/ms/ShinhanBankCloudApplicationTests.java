@@ -1,10 +1,10 @@
-package shb.license;
+package shb.ms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class ShinhanBankLicenseApplicationTests {
+class ShinhanBankCloudApplicationTests {
 
 	@Test
 	void contextLoads() {

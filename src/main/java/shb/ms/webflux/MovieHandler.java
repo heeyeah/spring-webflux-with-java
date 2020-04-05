@@ -1,4 +1,4 @@
-package shb.license.webflux;
+package shb.ms.webflux;
 
 import org.springframework.context.annotation.Description;
 import org.springframework.stereotype.Component;
