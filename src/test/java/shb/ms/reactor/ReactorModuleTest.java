@@ -1,4 +1,4 @@
-package shb.license.reactor;
+package shb.ms.reactor;
 
 import org.junit.jupiter.api.*;
 import reactor.core.publisher.Flux;

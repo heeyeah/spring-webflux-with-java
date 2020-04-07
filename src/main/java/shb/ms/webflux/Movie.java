@@ -1,4 +1,4 @@
-package shb.license.webflux;
+package shb.ms.webflux;
 
 import lombok.*;
 

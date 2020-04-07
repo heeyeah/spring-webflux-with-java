@@ -1,4 +1,4 @@
-package shb.license.webflux;
+package shb.ms.webflux;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
