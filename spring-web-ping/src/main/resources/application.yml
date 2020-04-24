@@ -1,4 +1,2 @@
 server:
-  port: 8000
-  tomcat:
-    max-threads: 100
+  port: 8001
